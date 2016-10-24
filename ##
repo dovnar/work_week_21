@@ -1,0 +1,3 @@
+#define MAKE_STR(a) # a
+#define POSITION(obj) float obj ## X, obj ## Y,\
+    obj ## Height, obj ## Width
